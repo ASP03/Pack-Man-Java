@@ -7,7 +7,7 @@ public class Packman {
     static int Score;
     Packman(int x,int y){X=x; Y=y;}
     public void paint(Graphics g) {
-        g.setColor(Color.YELLOW);
+        g.setColor(Color.WHITE);
         g.drawOval(X,Y,100,100);
     }
 }

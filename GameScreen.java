@@ -41,9 +41,10 @@ public class GameScreen extends JFrame implements KeyListener {
 
         setSize(1000,1000);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setTitle("Pacman");
+        setTitle("Pac-Man");
         JPanel Panel = new JPanel();
-        getContentPane().setBackground(Color.WHITE);
+        Panel.setBackground(Color.BLACK);
+        getContentPane().setBackground(Color.BLACK);
         setLayout(new BorderLayout());
         typingArea = new JTextField(0);
         typingArea.addKeyListener(GameScreen.this);
